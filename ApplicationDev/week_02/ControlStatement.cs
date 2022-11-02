@@ -93,10 +93,10 @@ namespace AppDev.week_02
                 input = Console.ReadLine();
             } while (password != input);
 
-            goto Apple;
-            Banana: Console.WriteLine("How are you?");
-            Apple: Console.WriteLine($"Welcome {password}");
-            goto Banana;
+            //goto Apple;
+            //Banana: Console.WriteLine("How are you?");
+            //Apple: Console.WriteLine($"Welcome {password}");
+            //goto Banana;
         }
 
         public void ForLoop()
