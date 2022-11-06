@@ -1,5 +1,5 @@
 ﻿using System;
-namespace AppDev.week_02
+namespace ApplicationDev.week_02
 {
     public class ControlStatement
     {
