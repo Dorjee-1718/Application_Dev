@@ -1,5 +1,7 @@
 ﻿using ApplicationDev.week_01;
 using ApplicationDev.week_02;
+using ApplicationDev.week_03;
+using ApplicationDev.week_04;
 /*
 //getting input from users
 int num1 = 0;
@@ -60,6 +62,22 @@ c1.DoWhileLoop();
 c1.ForLoop();
 c1.ForEachLoop();
 */
-Calculator.Calculation();
+
+//Calculator.Calculation();
+/*
+PrimeNumber.checkPrime(2);
+OddEven.checkOddEven(5);
+SwapValue.swapValue(3, 5);
+FindElementInArray.findElemnt("cAT");
+*/
+VariableDriver.Display();
+Console.Write("Press any key to close the Calculator console app...");
+Console.ReadKey();
+
+
+
+
+
+
 
 

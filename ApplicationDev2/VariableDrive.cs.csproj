@@ -5,14 +5,16 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <AssemblyName>ApplicationDev2</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="week_03\" />
+    <ProjectReference Include="..\ApplicationDev\ApplicationDev.csproj" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="week_04\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="week_03\" />
     <Folder Include="week_04\" />
   </ItemGroup>
 </Project>

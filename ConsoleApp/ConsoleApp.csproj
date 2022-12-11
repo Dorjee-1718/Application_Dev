@@ -8,11 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="week_03\" />
-    <None Remove="week_04\" />
+    <None Remove="week_5\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="week_03\" />
-    <Folder Include="week_04\" />
+    <Folder Include="week_5\" />
   </ItemGroup>
 </Project>
